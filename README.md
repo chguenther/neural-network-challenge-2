@@ -8,7 +8,7 @@ The solution proceeds through the following steps.
 1. Read the data from a `csv` file into a Pandas DataFrame. (This step was provided.)
 2. Preprocess the data into appropriate X and y datasets by
    * Determining the number of unique values in each column (also provided), ensuring that there are no `null` values in the data, and determining the datatype of each column.
-   * Defining the X dataset by droping the target columns 'Attrition' and 'Department.
+   * Defining the X dataset by droping the target columns 'Attrition' and 'Department'.
    * Using `OneHotEncoder` to encode all non-numeric columns of the X dataset.
    * Using `OneHotEncoder` to encode the 'Attrition' and 'Department' target columns.
    * Define two different y datasets for 'Attrition' and 'Department', respectively.
@@ -16,7 +16,7 @@ The solution proceeds through the following steps.
 3. As instructed, create, build, and train a branched neural network with the following layers
    * Input layer,
    * Two shared hidden layers,
-   * One hidden layer abd one output layer each for the 'Attrition' and the 'Department' branches.
+   * One hidden layer and one output layer each for the 'Attrition' and the 'Department' branches.
 
 **Notes:**
 1. Since none of the classes of the non-numeric columns exhibit a clear order, we use `OneHotEncoder` to encode all columns.
