@@ -7,7 +7,7 @@ The task was to create a branched neural network that predicts whether employees
 The solution proceeds through the following steps.
 1. Read the data from a `csv` file into a Pandas DataFrame. (This step was provided.)
 2. Preprocess the data into appropriate X and y datasets by
-   * Determining the number of unique values in each column, ensuring that there are no `null` values in the data, and determining the datatype of each column.
+   * Determining the number of unique values in each column (also provided), ensuring that there are no `null` values in the data, and determining the datatype of each column.
    * Defining the X dataset by droping the target columns 'Attrition' and 'Department.
    * Using `OneHotEncoder` to encode all non-numeric columns of the X dataset.
    * Using `OneHotEncoder` to encode the 'Attrition' and 'Department' target columns.
